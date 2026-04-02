@@ -62,8 +62,6 @@ for each subsequent character c:
 
 **Default digest size:** 4 bytes → 8 hex characters (e.g., `A3F10C2B`).
 
-**Compatibility note:** Since the Gronsfeld cipher only shifts alphabetic characters, and a hex digest only contains digits and the letters A–F, the hash embeds cleanly into the cipher packet. Digits pass through unchanged, hex letters get shifted (and unshifted on the receiver's end), and the `|` delimiter is preserved as-is. No extra encoding step is needed.
-
 ---
 
 ## Authentication Scheme
