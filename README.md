@@ -92,11 +92,12 @@ The scheme follows a **Hash-then-Encrypt** approach.
 
 ```
 project/
-├── gronsfeld.py        ← Gronsfeld encrypt and decrypt
-├── pearson.py          ← Pearson hash function
-├── authentication.py   ← Sender and receiver logic
-├── test_script.py      ← Round-trip test script
-└── README.md           ← This file
+├── gronsfeld.py            ← Gronsfeld encrypt and decrypt
+├── pearson.py              ← Pearson hash function
+├── authentication.py       ← Sender and receiver logic
+├── test_script.py          ← Round-trip test script
+├── Test Script Output.docx ← Screenshot of the Output of 2 Examples
+└── README.md               ← This file
 ```
 
 ---
