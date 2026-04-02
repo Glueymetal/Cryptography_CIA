@@ -165,7 +165,7 @@ The test script (`test_script.py`) walks through four scenarios:
 1. **Cipher round-trip** — encrypting then decrypting a message recovers the original plaintext exactly.
 2. **Hash consistency** — the Pearson hash produces the same 8-character hex digest every time for the same input.
 3. **Normal authentication flow** — the receiver correctly verifies an unmodified encrypted packet.
-4. **Tampered packet detection** — the receiver correctly flags a packet that was modified after encryption.
+4. **Tampered packet detection** — prints the tampered packet and shows that the receiver correctly flags it as modified.
 
 ---
 
